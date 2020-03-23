@@ -1,0 +1,47 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.51526,
+                    12.005265
+                ]
+            },
+            "properties": {
+                "name": "1",
+                "tag": "first category",
+                "verified": "24\/11\/2019",
+                "description": {
+                    "Casa": "Casa 1",
+                    "Moranca": "ANGOLA",
+                    "Capo Famiglia": "Sim le Sana",
+                    "Numero persone": "10"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.692475,
+                    45.070387
+                ]
+            },
+            "properties": {
+                "name": "2",
+                "tag": "first category",
+                "verified": "23\/11\/2019",
+                "description": {
+                    "Casa": "IIS Avogadro",
+                    "Moranca": "IIS Avogadro",
+                    "Capo Famiglia": "T. De luca",
+                    "Numero persone": "1300"
+                }
+            }
+        }
+    ]
+}

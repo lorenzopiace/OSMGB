@@ -1,0 +1,12 @@
+/*Autore:Ferraiuolo
+Descrizione:css TEMPORANEO per testare l'ingrandimento dell'immagine.Le seguenti righe di codice verranno implementate nel css finale
+Data ultima modifica:11/03/2020  Modifica:creazione del file*/
+
+img:hover {
+    width: 100px;
+    height: 100px;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
