@@ -1,0 +1,3 @@
+*.bak
+*.sql
+db_conn.php
