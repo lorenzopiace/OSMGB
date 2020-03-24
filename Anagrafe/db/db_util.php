@@ -313,21 +313,18 @@ function get_tipo_utente($utente)
  
  $row= $result->fetch_array();
   
-
-
-  if ($row[0] == "admin"
+ if ($row[0] == "admin")
     $res = 1;
-  else
-  if ($row[0] == "gestore"
+ if ($row[0] == "gestore")
     $res = 2;
-  else
-  if ($row[0] == "utente"
+ if ($row[0] == "utente")
     $res = 3;
-  else
-	{
-	    echo "Errore tipo utente sconosciuto\n";
-		$res = KO;
-    }
+ else
+   {
+     echo "Errore tipo utente sconosciuto\n";
+     $res = KO;
+   }
+
 
  mysqli_close($conn);
  return $res;
