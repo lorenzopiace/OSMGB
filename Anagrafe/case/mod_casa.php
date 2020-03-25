@@ -18,9 +18,6 @@ $util2="../db/db_conn.php";
 require_once $util2;
 require_once $util1;
 setup();
-$pag=$_SESSION['pag_c']['pag_c'];
-unset($_SESSION['pag_c']);
-
 ?>
 <?php stampaIntestazione(); ?>
 <body>
@@ -181,9 +178,12 @@ unset($_SESSION['pag_c']);
 
 
     ?>
-    <?php
-    echo "<br><a href='gest_case.php?pag=$pag'>Torna a gestione case</a>"
-    ?>
+
+
+    <br><a href="gest_case.php">Torna a gestione case
+
+    </a>
+
 </body>
 
 <script>

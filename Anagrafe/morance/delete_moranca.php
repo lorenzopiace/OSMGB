@@ -12,13 +12,10 @@ $util2 = $config_path .'/../db/db_conn.php';
 require_once $util2;
 require_once $util1;
 setup();
-
-$pag=$_SESSION['pag_m']['pag_m'];
-unset($_SESSION['pag_m']);
 ?>
 <?php
 if (!isset($_POST['si']))
-  header("Location:gest_morance.php?pag=$pag");
+  header("Location:gest_morance.php");
 
 $id_moranca=$_POST["id_moranca"];
 $dataOggi=date("Y/m/d");
@@ -30,7 +27,7 @@ try
    $result = $conn->query($query);
    $row = $result->fetch_array();
    if ($row[0] >0)
-  	 EchoMessage("Impossibile cancellare: verificare se vi sono case presenti", "gest_morance.php?$pag");
+  	 EchoMessage("Impossibile cancellare: verificare se vi sono case presenti", "gest_morance.php");
 
    $query = "SELECT ";
    $query .= " m.id, m.nome, m.id_mor_zona, m.cod_zona,";
@@ -86,8 +83,8 @@ try
     $conn->autocommit(TRUE); // i.e., end transaction
 	$conn->close();
     $mymsg =  "Errore nella Cancellazione della moranca:";
-	EchoMessage($mymsg, "gest_morance.php?pag=$pag");
+	EchoMessage($mymsg, "gest_morance.php");
   }
 
-EchoMessage("Cancellazione moranca effettuata correttamente", "gest_morance.php?pag=$pag");
+EchoMessage("Cancellazione moranca effettuata correttamente", "gest_morance.php");
 ?>
