@@ -107,28 +107,31 @@ $x_pag = 10;
 // Generalmente si utilizza una querystring
     
 //$pag = isset($_GET['pag']) ? $_GET['pag'] : 1;
-if(isset($_GET['pag'])){//Se non è la prima volta che accedo ad una pagina
-            if(isset($_SESSION['pag_p']['pag_p'])){//Se la sessione è già impostata,l'attribuisco a $pag
-                $pag=$_GET['pag'];
-                $_SESSION['pag_p']['pag_p']=$pag;
-                
-                
-            }else{//Se la sessione non è impostata(come ad esempio quando è la prima volta che accedo alla pagina),imposto la sessione al valore corrente del get
-                $pag=$_GET['pag'];
-                $_SESSION['pag_p']['pag_p']=$pag; 
-                echo $pag;
-            }
-            
-        }else{//Se il get non è impostato(come ad esempio quando apro per la prima volta gestione case)
-            
-            if (isset($_SESSION['pag_p']['pag_p'])){//Se la sessione è già impostata(ho già cambiato pagina in precedenza)l'attribuisco alla $pag
-                $pag=$_SESSION['pag_p']['pag_p'];
-                
-            }else{//se accedo per la primissima volta alla pagina e quindi compare la prima pagina di default,attribuisco alla sessione $pag
-            $pag=1;
-            $_SESSION['pag_p']['pag_p']=$pag;
-            }
-        }      
+if(isset($_GET['pag']))
+ {//Se non è la prima volta che accedo ad una pagina
+  if(isset($_SESSION['pag_p']['pag_p']))
+	{//Se la sessione è già impostata,l'attribuisco a $pag
+      $pag=$_GET['pag'];
+      $_SESSION['pag_p']['pag_p']=$pag;        
+    }
+   else
+	{//Se la sessione non è impostata(come ad esempio quando è la prima volta che accedo alla pagina),imposto la sessione al valore corrente del get
+     $pag=$_GET['pag'];
+     $_SESSION['pag_p']['pag_p']=$pag; 
+//     echo $pag;
+	}
+   }
+   else
+   {//Se il get non è impostato(come ad esempio quando apro per la prima volta gestione case)        
+	if (isset($_SESSION['pag_p']['pag_p'])){//Se la sessione è già impostata
+      $pag=$_SESSION['pag_p']['pag_p'];          
+   }
+   else
+	{//se accedo per la primissima volta 
+     $pag=1;
+     $_SESSION['pag_p']['pag_p']=$pag;
+    }
+  }      
 
 // Controllo se $pag ? valorizzato e se ? numerico
 // ...in caso contrario gli assegno valore 1
