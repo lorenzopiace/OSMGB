@@ -9,7 +9,6 @@ $config_path = __DIR__;
 $util = $config_path .'/../util.php';
 require $util;
 setup();
-unsetPag(basename(__FILE__)); 
 ?>
 <html>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -50,7 +49,6 @@ unsetPag(basename(__FILE__));
     <?php stampaIntestazione(); ?>
     <body>
         <?php stampaNavbar(); ?>
-
         <div class="search-box">
             <input type="text" autocomplete="off" placeholder="Ricerca casa..." />
             <div class="result"></div>
@@ -82,29 +80,8 @@ unsetPag(basename(__FILE__));
 
         // Recupero il numero di pagina corrente.
         // Generalmente si utilizza una querystring
-        
-        // $pag = isset($_GET['pag']) ? $_GET['pag'] : 1; Vecchio metodo di paginazione
-        
-        if(isset($_GET['pag'])){//Se non è la prima volta che accedo ad una pagina
-            if(isset($_SESSION['pag_c']['pag_c'])){//Se la sessione è già impostata,l'attribuisco a $pag
-                $pag=$_GET['pag'];
-                $_SESSION['pag_c']['pag_c']=$pag;
-            }else{//Se la sessione non è impostata(come ad esempio quando è la prima volta che accedo alla pagina),imposto la sessione al valore corrente del get
-                $pag=$_GET['pag'];
-                $_SESSION['pag_c']['pag_c']=$pag; 
-                
-            }
-            
-        }else{//Se il get non è impostato(come ad esempio quando apro per la prima volta gestione case)
-            
-            if (isset($_SESSION['pag_c']['pag_c'])){//Se la sessione è già impostata(ho già cambiato pagina in precedenza)l'attribuisco alla $pag
-                $pag=$_SESSION['pag_c']['pag_c'];
-                
-            }else{//se accedo per la primissima volta alla pagina e quindi compare la prima pagina di default,attribuisco alla sessione $pag
-            $pag=1;
-            $_SESSION['pag_c']['pag_c']=$pag;
-            }
-        }
+        $pag = isset($_GET['pag']) ? $_GET['pag'] : 1;
+
         // Controllo se $pag è valorizzato e se è numerico
         // ...in caso contrario gli assegno valore 1
         if (!$pag || !is_numeric($pag)) $pag = 1; 
@@ -176,8 +153,6 @@ unsetPag(basename(__FILE__));
         $result = $conn->query($query);  
         //echo $query;
 
-  
-
         if ($result->num_rows !=0)
         {
             echo "<table border>";
@@ -215,20 +190,20 @@ unsetPag(basename(__FILE__));
                 echo "<td>$row[zona]</td>";
                 echo "<td>$row[id_moranca]</td>";
                 $mystr = utf8_encode ($row['nominativo']) ;
-
+                
                 echo "<td>$mystr</td>";
                 echo "<td>$row[id_pers]</td>";
-
+                
                 $mystr = utf8_encode ($row['nome_moranca']) ;
                 echo "<td>$mystr</th>";
-
-
+                
+                
                 $query2="SELECT COUNT(pers_casa.ID_PERS) as persone from pers_casa WHERE ID_CASA='$row[id]'";
                 $result2 = $conn->query($query2);
                 $row2 = $result2->fetch_array();
-                echo "<td>$row2[persone]</th>";
-
-
+                   echo "<td>$row2[persone]</th>";
+                
+                
                 $osm_link = "https://www.openstreetmap.org/way/$row[id_osm]";
                 if ($row['id_osm'] != null && $row['id_osm'] != "0")
                 { 
