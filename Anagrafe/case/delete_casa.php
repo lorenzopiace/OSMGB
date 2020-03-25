@@ -16,8 +16,11 @@ require_once $util2;
 require_once $util1;
 setup();
 
+$pag=$_SESSION['pag_c']['pag_c'];
+unset($_SESSION['pag_c']);
+
 if (!isset($_POST['si']))
-   header("Location:gest_case.php");
+   header("Location:gest_case.php?pag=$pag");
 
 $id_casa=$_POST["id_casa"];
 
@@ -32,7 +35,7 @@ try
    $row = $result->fetch_array();
    $num = $row['cont'];
    if ($num >0)
-	 EchoMessage("Impossibile cancellare: verificare se vi sono persone presenti", "gest_case.php");
+	 EchoMessage("Impossibile cancellare: verificare se vi sono persone presenti", "gest_case.php?$pag");
 
    /*
    *** recupero dei dati da inserire nello storico casa_sto
@@ -154,7 +157,9 @@ catch ( Exception $e )
 	$conn->close();
 
     $mymsg = "Errore cancellazione casa id=" . $id_casa . "err:" . $msg_err;
-    EchoMessage($mymsg, "gest_case.php");
+    EchoMessage($mymsg, "gest_case.php?pag=$pag");
    }
-  EchoMessage("Cancellazione casa effettuata correttamente", "gest_case.php");
+
+
+  EchoMessage("Cancellazione casa effettuata correttamente", "gest_case.php?pag=$pag");
 ?>
