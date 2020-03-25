@@ -45,23 +45,24 @@ function stampaNavbar()
             echo "<li><a href='https://drive.google.com/file/d/1VOXNtxo_ULb5xbqlJeVmjNz9vhz2insi/view?usp=sharing' target=new>Segnalazioni</a></li>";
             ?>
 
-            <li><div class="dropdown">
+          
+                <?php
+        }  ?>
+          <li><div class="dropdown">
     <button class="dropbtn">
         <?php echo $_SESSION['nome']; ?>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-        <a href="/OSM/Anagrafe/utenti/area_personale.php">Area personale</a>
+       
         <a href='/OSM/Anagrafe/logout.php'>Esci <IMG SRC='/OSM/Anagrafe/img/ico-logout.png' WIDTH='30' HEIGHT='28' BORDER='0' ALT='Esci'></IMG></a>
       
     
     </div>
   </div></li>
-                <?php
-        } 
        
 
-    ?>
+    
 
     <li>
         <a href="#" onclick="myFx()" class="globe">
