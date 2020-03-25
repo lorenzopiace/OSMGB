@@ -3,9 +3,10 @@
 //Data ultima modifica:27/02/2020
 //Descrizione:Implementazione della gestione multilingue attraverso un file .json Autore:Gobbi Dennis
 //Descrizione:Gestione degli utenti Autore:Ferraiuolo Pasquale
+//25/03/2020: Ferraiuolo: Aggiunta menu a tendina e nome utente nella videata
 ?>
 
-<link rel="stylesheet" type="text/css" href="css/utilcss.css">
+<link rel="stylesheet" type="text/css" href="/OSM/Anagrafe/css/utilcss.css">
 <?php
 function stampaNavbar()
 {
@@ -50,7 +51,7 @@ function stampaNavbar()
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-        
+        <a href="/OSM/Anagrafe/utenti/area_personale.php">Area personale</a>
         <a href='/OSM/Anagrafe/logout.php'>Esci <IMG SRC='/OSM/Anagrafe/img/ico-logout.png' WIDTH='30' HEIGHT='28' BORDER='0' ALT='Esci'></IMG></a>
       
     
