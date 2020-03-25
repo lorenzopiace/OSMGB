@@ -75,7 +75,7 @@ echo "</select>";
 
 echo "<button type='submit' >".$jsonObj->{$lang."Morance"}[4]."</button>";//Conferma
 echo "</form>";
-echo "<br><a href='gest_persone.php?pag=$pag'>Torna a gestione persone</a>" 
+echo "<br><a href='gest_morance.php?pag=$pag'>Torna a gestione persone</a>" 
 ?>
 </body>
 </html>

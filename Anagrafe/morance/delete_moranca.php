@@ -85,7 +85,7 @@ try
     $conn->autocommit(TRUE); // i.e., end transaction
 	$conn->close();
     $mymsg =  "Errore nella Cancellazione della moranca:";
-	EchoMessage($mymsg, "gest_morance.php");
+	EchoMessage($mymsg, "gest_morance.php?pag=$pag");
   }
 
 EchoMessage("Cancellazione moranca effettuata correttamente", "gest_morance.php?pag=$pag");
