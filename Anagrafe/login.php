@@ -105,6 +105,7 @@ if (isset($_POST['user']) && isset($_POST['psw']))
             $_SESSION['tipo']=$fin["ID_ACCESSO"];
             $_SESSION['nome']=$fin["USER"];
             $_SESSION['token']=$token;
+            
             header("Location: index.php?welcome=true");   
         }
         else{
