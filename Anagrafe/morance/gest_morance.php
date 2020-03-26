@@ -128,7 +128,7 @@ for($i=0;$i<$nz;$i++)
 			echo "<option value='".$row["COD"]."'>".$row["NOME"]."</option>";
 }
 echo "</select>";
-echo " <input type='submit' value='".$jsonObj->{$lang."Morance"}[4]."'>";//Conferma
+echo " <input type='submit' class='button' value='".$jsonObj->{$lang."Morance"}[4]."'>";//Conferma
 echo " </form>";
 
 // ordinamento su campi (11/3/2020) A.C.
