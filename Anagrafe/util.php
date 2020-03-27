@@ -54,7 +54,7 @@ function stampaNavbar()
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-       
+        <a href="/OSM/Anagrafe/utenti/area_personale.php">Area personale</a>
         <a href='/OSM/Anagrafe/logout.php'>Esci <IMG SRC='/OSM/Anagrafe/img/ico-logout.png' WIDTH='30' HEIGHT='28' BORDER='0' ALT='Esci'></IMG></a>
       
     
