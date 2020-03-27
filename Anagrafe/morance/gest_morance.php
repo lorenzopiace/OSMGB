@@ -97,7 +97,7 @@ if(isset($_GET['pag']))
 	{//Se la sessione non è impostata
       $pag=$_GET['pag'];
       $_SESSION['pag_m']['pag_m']=$pag; 
-      echo $pag;
+ //     echo $pag;
     }     
    }
   else
