@@ -84,8 +84,9 @@ $x_pag = 10;
 // Recupero il numero di pagina corrente.
 // Generalmente si utilizza una querystring
 
-//$pag = isset($_GET['pag']) ? $_GET['pag'] : 1;
-    
+
+    /**Metodo di paginazione senza funzione*/
+ /*   
 if(isset($_GET['pag']))
  {//Se non è la prima volta che accedo ad una pagina
   if(isset($_SESSION['pag_m']['pag_m']))
@@ -111,7 +112,9 @@ if(isset($_GET['pag']))
         $_SESSION['pag_m']['pag_m']=$pag;
       }
     }    
-
+*/
+    $pag=Paginazione("pag_m");
+    
 // Controllo se $pag ? valorizzato e se ? numerico
 // ...in caso contrario gli assegno valore 1
 if (!$pag || !is_numeric($pag))
