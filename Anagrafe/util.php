@@ -43,26 +43,26 @@ function stampaNavbar()
             echo "<li><a href='/OSM/Anagrafe/utenti/gestione_utenti.php'><IMG SRC='/OSM/Anagrafe/img/ico-registrati.png' WIDTH='36' HEIGHT='33' BORDER='0' ALT='Entra'>".$jsonObj->{$lang."Navbar"}[10]."</IMG></a></li>";//Gestione Utenti
             //			echo "<li><a href='/OSM/Anagrafe/utility.php'>".$jsonObj->{$lang."Navbar"}[11]."</a></li>";
             echo "<li><a href='https://drive.google.com/file/d/1VOXNtxo_ULb5xbqlJeVmjNz9vhz2insi/view?usp=sharing' target=new>Segnalazioni</a></li>";
-            ?>
+    ?>
 
-          
-                <?php
+
+    <?php
         }  ?>
-          <li><div class="dropdown">
-    <button class="dropbtn">
-        <?php echo $_SESSION['nome']; ?>
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-        <a href="/OSM/Anagrafe/utenti/area_personale.php">Area personale</a>
-        <a href='/OSM/Anagrafe/logout.php'>Esci <IMG SRC='/OSM/Anagrafe/img/ico-logout.png' WIDTH='30' HEIGHT='28' BORDER='0' ALT='Esci'></IMG></a>
-      
-    
-    </div>
-  </div></li>
-       
+    <li><div class="dropdown">
+        <button class="dropbtn">
+            <?php echo $_SESSION['nome']; ?>
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/OSM/Anagrafe/utenti/area_personale.php">Area personale</a>
+            <a href='/OSM/Anagrafe/logout.php'>Esci <IMG SRC='/OSM/Anagrafe/img/ico-logout.png' WIDTH='30' HEIGHT='28' BORDER='0' ALT='Esci'></IMG></a>
 
-    
+
+        </div>
+        </div></li>
+
+
+
 
     <li>
         <a href="#" onclick="myFx()" class="globe">
@@ -210,6 +210,39 @@ function unsetPag($file){
             unset($_SESSION['pag_c']);
             break;
     }
+}
+
+function Paginazione($pagina,$subpag=null){
+    if(is_null($subpag))$subpag=$pagina;//Se il parametro opzionale viene omesso,viene impostato al valore di $pagina
+    if(isset($_GET['pag']))
+    {//Se non è la prima volta che accedo ad una pagina
+        if(isset($_SESSION[$pagina][$subpag]))
+        {//Se la sessione è già impostata,l'attribuisco a $pag
+            $pag=$_GET['pag'];
+            $_SESSION[$pagina][$subpag]=$pag;   
+            return $pag;
+        }
+        else
+        {//Se la sessione non è impostata
+            $pag=$_GET['pag'];
+            $_SESSION[$pagina][$subpag]=$pag; 
+            return $pag;
+            //     echo $pag;
+        }     
+    }
+    else
+    {//Se il get non è impostato(come ad esempio quando apro per la prima volta gestione case)
+        if (isset($_SESSION[$pagina][$subpag]))
+        {//Se la sessione è già impostata
+            $pag=$_SESSION[$pagina][$subpag];    
+            return $pag;
+        }else
+        {//se accedo per la primissima volta alla pagina 
+            $pag=1;
+            $_SESSION[$pagina][$subpag]=$pag;
+            return $pag;
+        }
+    }    
 }
 
 
