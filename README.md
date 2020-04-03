@@ -110,7 +110,7 @@ Si tratta di:
     - Uberto Gabriele: Mappatore e incaricato video
     - Vasilis Daniel: Membro gruppo database
 
+## Link Utili
+Abbiamo inoltre realizzato una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English)
+l'applicazione web è consultabile [cliccando qui](http://ntchanguetest.altervista.org/OSM/Anagrafe/index.php)
 
-Inoltre è stata realizzata una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English) )
-
-[Documento di Analisi](https://trello.com/c/VZyXnDDh/114-documenti-di-analisi)
