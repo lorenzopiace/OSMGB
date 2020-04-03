@@ -12,7 +12,7 @@ L’obiettivo del progetto è di realizzare un archivio anagrafico-catastale ed 
 
 ## Introduzione alla Guinea Bissau
 La Guinea-Bissau è una tra le più piccole nazioni dell'Africa occidentale che copre un'area di 36.125 km2. Si affaccia sull’Oceano Atlantico tra il Senegal a nord e la Repubblica della Guinea a sud-est.
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.notiziegeopolitiche.net%2Fguinea-bissau-la-povera-economia-del-paese-africano-tra-corruzione-e-narcotraffico%2F&psig=AOvVaw3IcbEFojfvERNyTrEnBZd6&ust=1586013073955000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCjs6HFzOgCFQAAAAAdAAAAABAD)
+![alt text](https://www.notiziegeopolitiche.net/wp-content/uploads/2018/01/IMG_4523.jpg)
 ### Territorio e lingua
 I territori dell’attuale Guinea-Bissau furono occupati dal Portogallo nel 1446 fino alla dichiarazione d’indipendenza proclamata unilateralmente dai Guineiani il 24 settembre del 1973 dopo una lotta iniziata nel 1963. L’indipendenza fu concessa dal Portogallo l’anno successivo, il 10 settembre del ’74, come conseguenza della Rivoluzione dei garofani, dopo circa 500 anni.
 Dopo il conseguimento dell’indipendenza, il nome di Guinea Portoghese fu trasformato nell'attuale. Al nome Guinea è stato  aggiunto quello della capitale Bissau per evitare la confusione con il vicino stato della Guinea con capitale Conakry, ex colonia francese. 
