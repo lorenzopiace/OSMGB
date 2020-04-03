@@ -80,6 +80,36 @@ Si tratta di:
 |Mappatura|Mappatura di case ,pozzi e campi|
 |Documento Analisi|Scrittura di un documentodi analisi consultabile percomprendere pienamente il progetto|
 
+## Stakeholder
+
+- Esterni:
+  - Salvatore Merola - committente: Abala-Lite mail:abalalite@gmail.com
+  - Marcherita Dotta Rosso - committente: Abala-Lite  mail:dottarosso@gmail.com
+  - Marco Brancolini  - consulente per OSM-Wikimedia
+- Interni
+  - Docenti
+    - A. Carlone e P. Nesi: supervisori del progetto tecnico e consulenti per tutti gli aspetti del progetto.
+    - M.Gherra: consulente per aspetti culturali, sociali e presentazione
+    - M.Buscemi: consulente per aspetti architetturali
+    - M.Maffucci: consulente per la progettazione del database e dell'applicazione Web
+  - Studenti
+    - Arneodo Alessandro: Referente gruppo Applicazione web 
+    - Confalonieri Manuel: Membro gruppo database e incaricato video
+    - Del gaudio Jose: Membro gruppo database
+    - Emmanuello Enrico: Membro gruppo analisi
+    - Ferraiuolo Pasquale: Membro gruppo applicazione web
+    - Gobbi Dennis: Membro gruppo applicazione web
+    - Lizzi Fabrizio: Mappatore e incaricato video
+    - Melito Simone: Membro gruppo analisi
+    - Menjivar Alessio: Membro gruppo analisi e incricato openrefine
+    - Muntianu Andrei: Mappatore e incaricato openrefine
+    - Piacenza Lorenzo: Referente gruppo analisi e incaricato alla situazione sociale 
+    - Rombolà Francesco: Mappatore e incaricato css
+    - Scursatone Matteo: Supervisore generale e referente di classe  
+    - Terlingo Davide: Referente gruppo database
+    - Uberto Gabriele: Mappatore e incaricato video
+    - Vasilis Daniel: Membro gruppo database
+
 
 Inoltre è stata realizzata una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese[(https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English) 
 <a href="https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro" target="_top"> view Wikipedia page</a>
