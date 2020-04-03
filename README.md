@@ -1,6 +1,6 @@
 # OSMGB
 ## Progetto OSM Guinea Bissau - Classe 5Ainfo 2019\20 IIS A. Avogadro
-![alt text] (https://lh3.googleusercontent.com/proxy/aZv2abD8zc3LshnpNT04uDNAy2S9xNbAVV9SIwlQhxc_7ULgIbdijxfQfjDEjDk8xXaGD-0-HFliRlI8yKaMjGAIuo3E9mjmo87xAx4_1siL)
+![alt text](https://lh3.googleusercontent.com/proxy/aZv2abD8zc3LshnpNT04uDNAy2S9xNbAVV9SIwlQhxc_7ULgIbdijxfQfjDEjDk8xXaGD-0-HFliRlI8yKaMjGAIuo3E9mjmo87xAx4_1siL)
 Tale progetto è stato proposto  dall’associazione ONLUS Abala-Lite ai docenti della materia GPOI (Gestione Progetto e Organizzazione d’impresa) e alla  classe 5AINFO dell’ IIS A. Avogadro  A.S. 2019/20 nel settembre 2019.
 Gli allievi e i docenti  si sono accordati nel cogliere l’opportunità di  sperimentare   i concetti teorici delle lezioni del corso che riguarda la gestione di un progetto informatico in tutte le sue fasi di avvio, pianificazione, progettazione, realizzazione e rilascio.
 Si intende quindi applicare le nozioni apprese man mano durante l’anno,  mettendosi fin da subito in gioco su un progetto  concreto  volto alla realizzazione e consegna di una applicazione informatica con lo scopo di digitalizzare un sistema informativo di Anagrafica e di Mappa Catastale di un villaggio della Guinea Bissau. 
@@ -43,13 +43,13 @@ La popolazione è suddivisa in 305 famiglie che vivono in una cinquantina di mor
 
 ## Obiettivi del progetto
 - Mappa OSM
- - si tratta di inserire sulla mappa OSM le seguenti informazioni:
-  - case
-  - raggruppamenti di caes (morançe)
-  - pozzi
-  - risaie
-  - strade
-  - qualsiasi altro oggetto mappabile
+  - si tratta di inserire sulla mappa OSM le seguenti informazioni:
+    - case
+    - raggruppamenti di caes (morançe)
+    - pozzi
+    - risaie
+    - strade
+    - qualsiasi altro oggetto mappabile
 
 - Anagrafe Web
 - Integrazione Mappa OSM con Anagrafe web
