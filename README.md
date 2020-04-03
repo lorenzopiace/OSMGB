@@ -112,5 +112,6 @@ Si tratta di:
 
 ## Link Utili
 Abbiamo inoltre realizzato una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English)
-l'applicazione web è consultabile [cliccando qui](http://ntchanguetest.altervista.org/OSM/Anagrafe/index.php)
+
+L'applicazione web è consultabile [cliccando qui](http://ntchanguetest.altervista.org/OSM/Anagrafe/index.php)
 
