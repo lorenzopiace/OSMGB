@@ -54,17 +54,17 @@ La popolazione è suddivisa in 305 famiglie che vivono in una cinquantina di mor
     - qualsiasi altro oggetto mappabile
 
 - Anagrafe Web
-  -Progettazione e realizzazione di un Database e di una applicazione Web in grado di accedere ai dati anagrafici degli abitanti del villaggio, delle composizioni delle famiglie e delle morance.
+  - Progettazione e realizzazione di un Database e di una applicazione Web in grado di accedere ai dati anagrafici degli abitanti del villaggio, delle composizioni delle famiglie e delle morance.
 Si tratta di:
 
 
-    -Analisi dei dati del censimento forniti da Abala-Lite su file excel, si tratta di interpretare, analizzare e riprodurre in un formato consono a rappresentare i dati in un modello relazionale, per poter caricare i dati stessi su un database vero e proprio.
+    - Analisi dei dati del censimento forniti da Abala-Lite su file excel, si tratta di interpretare, analizzare e riprodurre in un formato consono a rappresentare i dati in un modello relazionale, per poter caricare i dati stessi su un database vero e proprio.
 
-    -Progettazione concettuale, logica e realizzazione di un database su mySQL , in grado di archiviare secondo il modello relazionale  i dati dell’anagrafe dei villaggi
+    - Progettazione concettuale, logica e realizzazione di un database su mySQL , in grado di archiviare secondo il modello relazionale  i dati dell’anagrafe dei villaggi
 
-    -Migrazione dei dati dal file excel al database mySQL
+    - Migrazione dei dati dal file excel al database mySQL
 
-    -Analisi, progettazione e realizzazione di una applicazione Web che acceda al database mySQL e permetta di operare sui dati, per fornire le funzionalità utili al personale addetto alla gestione di tali informazioni.
+    - Analisi, progettazione e realizzazione di una applicazione Web che acceda al database mySQL e permetta di operare sui dati, per fornire le funzionalità utili al personale addetto alla gestione di tali informazioni.
     
 - Integrazione Mappa OSM con Anagrafe web
 
