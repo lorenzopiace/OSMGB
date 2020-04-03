@@ -111,6 +111,6 @@ Si tratta di:
     - Vasilis Daniel: Membro gruppo database
 
 
-Inoltre è stata realizzata una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese[(https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English) 
-<a href="https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro" target="_top"> view Wikipedia page</a>
+Inoltre è stata realizzata una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese[(https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English) )
+
 [Documento di Analisi](https://trello.com/c/VZyXnDDh/114-documenti-di-analisi)
