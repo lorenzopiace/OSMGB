@@ -67,9 +67,18 @@ Si tratta di:
     - Analisi, progettazione e realizzazione di una applicazione Web che acceda al database mySQL e permetta di operare sui dati, per fornire le funzionalità utili al personale addetto alla gestione di tali informazioni.
     
 - Integrazione Mappa OSM con Anagrafe web
+  - Progettazione e realizzazione di un unico sistema integrato, in grado di gestire i dati anagrafici e collegarli alla mappa del villaggio su OSM. Si tratta di esportare il database e di inserire sulla mappa OSM i dati di anagrafica, utilizzando il tool UMAP.
 
-
-
+## Key Project Deliverables
+|Nome|Descrizione|
+|---|---|
+|Migrazione dati mysql|Migrazione delle tabelle excel su database relazionali|
+|Analisi tabelle excel|Analisi tabelle e verifica consistenza dati|
+|Progettazione Db|Creazione Db relazionale sulla base delle analisi sulle tabelle excel|
+|Inserimento dati|Creazione algoritmi per la migrazione automatica dei dati|
+|Applicazione web|Per interagire con il database attraverso tabelle,grafici e interrogazioni singole|
+|Mappatura|Mappatura di case ,pozzi e campi|
+|Documento Analisi|Scrittura di un documentodi analisi consultabile percomprendere pienamente il progetto|
 
 
 Inoltre è stata realizzata una [pagina wikipedia](https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro) in italiano e una [in inglese[(https://wiki.openstreetmap.org/wiki/OsmGuineaBissau_Avogadro-English) 
