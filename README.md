@@ -92,7 +92,7 @@ Si tratta di:
     - M.Gherra: consulente per aspetti culturali, sociali e presentazione
     - M.Buscemi: consulente per aspetti architetturali
     - M.Maffucci: consulente per la progettazione del database e dell'applicazione Web
-  - Studenti
+  - Studenti 
     - Arneodo Alessandro: Referente gruppo Applicazione web 
     - Confalonieri Manuel: Membro gruppo database e incaricato video
     - Del gaudio Jose: Membro gruppo database
